@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Power Platform Courses</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9fb;
+      color: #333;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .course {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+    .course-header {
+      background: #34495e;
+      color: white;
+      padding: 1rem 2rem;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .course:hover .course-header {
+      background: #2c3e50;
+    }
+    .summary {
+      padding: 1rem 2rem;
+      font-size: 0.95rem;
+      color: #555;
+      background: #f4f6f8;
+    }
+    .toc {
+      padding: 1rem 2rem;
+      display: none;
+    }
+    .toc ul {
+      list-style-type: square;
+      margin-left: 1rem;
+    }
+    .toc ul ul {
+      list-style-type: circle;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Microsoft Power Platform Course TOCs</h1>
+<div style="margin-bottom: 2rem; font-size: 1.05rem; color: #444;">
+  <p>
+    At <strong>RR Education</strong>, our goal is to empower learners with clarity and confidence.
+    In this article, we present a <strong>compiled and updated Table of Contents (TOC)</strong> for the major
+    Microsoft Power Platform certifications, including <strong>PL-300, PL-400, PL-200, PL-7001–7004</strong>.
+  </p>
+  <p>
+    Whether you're a learner preparing for certification, a trainer organizing content, or a Power Platform enthusiast
+    seeking structured learning paths — this guide will help you explore each course’s depth, prerequisites, and modular breakdown.
+  </p>
+  <p>
+    Click on each course title below to expand and explore its detailed syllabus.
+  </p>
+</div>
+
+  <div class="course">
+    <div class="course-header" onclick="toggleTOC('toc1')">PL-300T00: Microsoft Power BI Data Analyst</div>
+    <div class="summary">
+      Learn how to model, visualize, and analyze data using Power BI. Best suited for professionals working with data insights.<br>
+      <strong>Prerequisites:</strong> Familiarity with data analysis, Power Query, and DAX basics.
+    </div>
+    <div id="toc1" class="toc">
+      <ul>
+        <li>Get started with Microsoft data analytics
+          <ul>
+            <li>Discover data analysis</li>
+            <li>Get started building with Power BI</li>
+          </ul>
+        </li>
+        <li>Prepare data in Power BI Desktop</li>
+        <li>Model data with Power BI Desktop</li>
+        <li>Build Power BI visuals and reports</li>
+        <li>Perform Advanced Analytics with Power BI</li>
+        <li>Manage workspaces and datasets</li>
+        <li>Explore Copilot and Microsoft Fabric</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course-header" onclick="toggleTOC('toc2')">PL-7001: Create and Manage Canvas Apps with Power Apps</div>
+    <div class="summary">
+      This course introduces creating apps using the canvas app model in Power Apps with hands-on exercises.<br>
+      <strong>Prerequisites:</strong> Basic understanding of Power Platform and Excel-style expressions.
+    </div>
+    <div id="toc2" class="toc">
+      <ul>
+        <li>Introduction to Power Apps</li>
+        <li>Customize a canvas app</li>
+        <li>Build the User Interface</li>
+        <li>Work with external data</li>
+        <li>Write data in a canvas app</li>
+        <li>Publish, share, and maintain an app</li>
+        <li>Guided Project</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course-header" onclick="toggleTOC('toc3')">PL-7002: Create and Manage Automated Processes by using Power Automate</div>
+    <div class="summary">
+      Learn to automate workflows and business processes using Power Automate with practical examples and real-world scenarios.<br>
+      <strong>Prerequisites:</strong> General knowledge of business processes and Microsoft apps.
+    </div>
+    <div id="toc3" class="toc">
+      <ul>
+        <li>Get started with Power Automate</li>
+        <li>Build approval flows</li>
+        <li>Flows for managing user info</li>
+        <li>Integrate across multiple data sources</li>
+        <li>Guided Project</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course-header" onclick="toggleTOC('toc4')">PL-7003: Create and Manage Model-Driven Apps with Power Apps and Dataverse</div>
+    <div class="summary">
+      Explore how to build model-driven applications and configure Dataverse tables, forms, and logic.<br>
+      <strong>Prerequisites:</strong> Familiarity with Power Platform and data modeling basics.
+    </div>
+    <div id="toc4" class="toc">
+      <ul>
+        <li>Create tables in Dataverse</li>
+        <li>Get started with model-driven apps</li>
+        <li>Configure forms, charts, dashboards</li>
+        <li>Manage solutions</li>
+        <li>Guided Project</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course-header" onclick="toggleTOC('toc5')">PL-7004: Implement AI models with Microsoft Power Platform AI Builder</div>
+    <div class="summary">
+      Learn to build and use AI models with AI Builder, including document automation, predictions, and text recognition.<br>
+      <strong>Prerequisites:</strong> Knowledge of Power Platform environment, Power Apps, and Power Automate.
+    </div>
+    <div id="toc5" class="toc">
+      <ul>
+        <li>Use AI Builder models in Power Apps</li>
+        <li>Recognize text with AI Builder</li>
+        <li>Get Started with prediction</li>
+        <li>Process custom documents</li>
+        <li>Automate document processing</li>
+        <li>Guided Project</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course-header" onclick="toggleTOC('toc6')">PL-200T00: Microsoft Power Platform Functional Consultant</div>
+    <div class="summary">
+      Comprehensive guide for Functional Consultants to configure apps, flows, and integrations using the Power Platform.<br>
+      <strong>Prerequisites:</strong> Experience with Microsoft 365, basic Power Apps/Automate knowledge.
+    </div>
+    <div id="toc6" class="toc">
+      <ul>
+        <li>Work with Microsoft Dataverse</li>
+        <li>Manage Microsoft Dataverse</li>
+        <li>Create model-driven apps</li>
+        <li>Create canvas apps</li>
+        <li>Build Power Pages portals</li>
+        <li>Build automation with Power Automate</li>
+        <li>Build chatbots with Power Virtual Agents</li>
+        <li>Visualize data with Power BI</li>
+        <li>Solutions and Integrations</li>
+        <li>Applied Workshop</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course-header" onclick="toggleTOC('toc7')">PL-400T00: Microsoft Power Platform Developer</div>
+    <div class="summary">
+      Technical course focused on advanced Power Platform development: extending apps, APIs, ALM, custom connectors.<br>
+      <strong>Prerequisites:</strong> Software development experience, Power Platform basics.
+    </div>
+    <div id="toc7" class="toc">
+      <ul>
+        <li>Work with Microsoft Dataverse</li>
+        <li>Create model-driven apps</li>
+        <li>Create canvas apps</li>
+        <li>Advanced techniques in canvas apps</li>
+        <li>Automate with Power Automate</li>
+        <li>Develop with Power Platform tools</li>
+        <li>Extend model-driven user experience</li>
+        <li>Power Apps Component Framework</li>
+        <li>Extend Dataverse with plug-ins</li>
+        <li>Integrate with Dataverse and Azure</li>
+        <li>Application lifecycle management</li>
+        <li>Create a Technical Design</li>
+        <li>Workshop</li>
+      </ul>
+    </div>
+  </div>
+<footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #ddd; font-size: 0.95rem; text-align: center; color: #444;">
+  <p><strong>Raushan Ranjan</strong><br />
+  Microsoft Certified Trainer</p>
+  <p>.NET | Azure | Power Platform | WPF | Qt/QML Developer<br />
+  Power BI Developer | Data Analyst</p>
+  <p>📞 +91 82858 62455 &nbsp; | &nbsp; 🌐 <a href="https://raushanranjan.azurewebsites.net" target="_blank">raushanranjan.azurewebsites.net</a><br />
+  🔗 <a href="https://linkedin.com/in/raushanranjan" target="_blank">linkedin.com/in/raushanranjan</a></p>
+</footer>
+  <script>
+    function toggleTOC(id) {
+      const toc = document.getElementById(id);
+      toc.style.display = toc.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
